@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Program3</title>
+	<style type="text/css">
+		body
+		{
+			padding-top: 280px;
+			background-color: black;
+		}
+	</style>
+</head>
+<body align="center">
+<p id="p1"></p>
+<script type="text/javascript">
+	var x=document.getElementById('p1');
+	var a=setInterval(grow,100);
+	var size=5;
+	function grow() {
+		x.innerHTML="TEXT-GROWING";
+		x.setAttribute("style","color:red;font-size:"+size+"px;");
+		size+=5;
+		if(size>=50)
+		{
+			clearInterval(a);
+			var b=setInterval(shrink,100);
+		}
+		
+	}
+    function shrink() {
+    	// body...
+        x.innerHTML="TEXT-SHRINKING";
+        x.setAttribute("style","color:blue;font-size:"+size+"px;");
+        size-=5;
+        if(size==5)
+        {
+        	clearInterval(b);
+        }
+    }
+</script>
+</body>
+</html>

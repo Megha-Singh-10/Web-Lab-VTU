@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<vtu>
+	Student Data
+	<section_a>
+		<student1>
+			<usn>1AY17CS001</usn>
+			<name>Megha Singh</name>
+			<college>Acharya Institute Of Technology</college>
+			<branch>CSE</branch>
+			<year>2017</year>
+			<email>megha@gmail.com</email>
+		</student1>
+		<student2>
+			<usn>1AY17IS002</usn>
+			<name>Khushi Singh</name>
+			<college>Sapthagiri Institute Of Technology</college>
+			<branch>ISE</branch>
+			<year>2020</year>
+			<email>khushi@gmail.com</email>
+		</student2>
+		<student3>
+			<usn>1AY17EC003</usn>
+			<name>Shwetha GP</name>
+			<college>Acharya Institute Of Technology</college>
+			<branch>ECE</branch>
+			<year>2017</year>
+			<email>shwetha@gmail.com</email>
+		</student3>
+	</section_a>
+	<section_b>
+		<student1>
+			<usn>1AY17CS011</usn>
+			<name>Aditya Singh</name>
+			<college>Vellore Institute Of Technology</college>
+			<branch>CSE</branch>
+			<year>2015</year>
+			<email>aditya@gmail.com</email>
+		</student1>
+		<student2>
+			<usn>1AY17BT012</usn>
+			<name>Kanishka</name>
+			<college>Acharya Institute Of Technology</college>
+			<branch>BT</branch>
+			<year>2017</year>
+			<email>kan@gmail.com</email>
+		</student2>
+		<student3>
+			<usn>1AY17CS013</usn>
+			<name>Vinuta Bhat</name>
+			<college>Acharya Institute Of Technology</college>
+			<branch>CSE</branch>
+			<year>2017</year>
+			<email>vinuta@gmail.com</email>
+		</student3>
+	</section_b>
+</vtu>

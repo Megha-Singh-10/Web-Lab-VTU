@@ -1,0 +1,71 @@
+vtu
+{
+  color: black;
+  background: blue;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align:center;
+  font-size: 60px;
+}
+section_a
+{ 
+  margin-bottom: 30px;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
+section_b
+{
+  margin-bottom: 30px;
+  color:white;
+  text-align: left;
+  font-size: 20px;
+}
+usn
+{
+  display: block;
+  text-decoration: underline;
+  color: black;
+  font-family: arial;
+  font-weight: bold;
+}
+name
+{
+  display: block;
+  text-decoration: none;
+  font-family: arial;
+  font-weight: bold;
+}
+college
+{
+  display: block;
+  text-decoration: none;
+  font-family: arial;
+  font-weight: bold;
+}
+branch
+{
+   display: block;
+   text-decoration: none;
+   font-family: arial;
+   font-weight: bold;
+}
+year
+{
+   display: block;
+   text-decoration: none;
+   font-family: arial;
+   font-weight: bold;
+}
+email
+{
+   display: block;
+   font-family: cursive;
+   text-decoration: none;
+   font-weight: bold;
+}
+student1,student2,student3
+{
+	margin: 10px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<style type="text/css">
+		body
+		{
+			margin: auto;
+		}
+		table
+		{
+			align-self: center;
+			margin: auto;
+			padding-top: 100px; 
+		}
+	</style>
+</head>
+<body>
+<table>
+	<tr><td colspan="4"><input type="text" id="result"></td></tr>
+	<tr><td><button value="1" onclick="insert(1)">1</button></td>
+		<td><button value="2" onclick="insert(2)">2</button></td>
+		<td><button value="3" onclick="insert(3)">3</button></td>
+		<td><button value="+" onclick="insert('+')">+</button></td>
+	</tr>
+	<tr>
+		<td><button value="4" onclick="insert(4)">4</button></td>
+		<td><button value="5" onclick="insert(5)">5</button></td>
+		<td><button value="6" onclick="insert(6)">6</button></td>
+		
+		<td><button value="-" onclick="insert('-')">-</button></td>
+	</tr>
+	<tr><td><button value="7" onclick="insert(7)">7</button></td>
+		<td><button value="8" onclick="insert(8)">8</button></td>
+		<td><button value="9" onclick="insert(9)">9</button></td>
+		
+		<td><button value="*" onclick="insert('*')">*</button></td>
+	</tr>
+	<tr><td><button value="C" onclick="clean()">C</button></td>
+		<td><button value="0" onclick="insert(0)">0</button></td>
+		<td><button value="=" onclick="solve()">=</button></td>
+		<td><button value="/" onclick="insert('/')">/</button></td>
+	</tr>
+
+</table>
+<script type="text/javascript">
+	function clean() {
+		// body...
+		document.getElementById('result').value="";
+	}
+	function insert(num)
+	{
+		document.getElementById('result').value+=num;
+	}
+	function solve()
+	{
+		var x=document.getElementById('result').value;
+		var y=eval(x);
+		document.getElementById('result').value=y;
+	}
+</script>
+</body>
+</html>
