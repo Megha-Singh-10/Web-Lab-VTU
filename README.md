@@ -1,2 +1,2 @@
-# Web-Lab-VTU-
+# Web-Lab-VTU
 This repository contains web lab programs.
